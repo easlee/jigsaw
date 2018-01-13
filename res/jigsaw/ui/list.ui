@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListClass</class>
+ <widget class="QWidget" name="ListClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>195</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QScrollArea[accessibleDescription=&quot;list:scroll&quot;]
+{
+	background-color: transparent;
+}
+
+QWidget[accessibleDescription=&quot;list:frame&quot;]{
+	
+	background-color: rgb(34, 45, 50);
+}
+
+
+QLabel[accessibleDescription=&quot;list:item:text&quot;]{
+	min-height:38;
+	max-height:38;
+	background-color: rgb(26, 34, 38);
+	color: rgb(55, 100, 88);
+	font: 11pt;
+	padding-left:12px;
+}
+
+
+QRadioButton[accessibleDescription=&quot;list:item:radiobutton&quot;]{
+	min-height:44;
+	max-height:44;
+	color: rgb(255, 255, 255);
+	font: 11pt;
+	padding-left:14px;
+	icon-size: 24px;
+}
+
+QRadioButton[accessibleDescription=&quot;list:item:radiobutton&quot;]:checked {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(60, 141, 188, 255), stop:0.02 rgba(60, 141, 188, 255), stop:0.021 rgba(44, 59, 65, 255), stop:1 rgba(44, 59, 65, 255));
+}
+
+QRadioButton[accessibleDescription=&quot;list:item:radiobutton&quot;]::indicator{
+    width: 0;
+    height: 0;
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="accessibleDescription">
+      <string notr="true">list:scroll</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>195</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="accessibleDescription">
+       <string notr="true">list:frame</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="slotItems" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="template_item_text">
+            <property name="accessibleDescription">
+             <string notr="true">list:item:text</string>
+            </property>
+            <property name="text">
+             <string>标题模板</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="template_item_radio">
+            <property name="accessibleDescription">
+             <string notr="true">list:item:radiobutton</string>
+            </property>
+            <property name="text">
+             <string>标签模板</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resource.qrc">
+              <normaloff>:/button/close_normal</normaloff>:/button/close_normal</iconset>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>215</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

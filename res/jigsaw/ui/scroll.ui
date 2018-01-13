@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>__root</class>
+ <widget class="QWidget" name="__root">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#__root {
+	background: transparent;
+}
+
+QWidget#__area {
+	background: transparent;
+}
+
+QWidget#__slot {
+	background: transparent;
+}
+
+QWidget#__area QScrollBar:vertical {
+     border: none;
+     background-color:#b5bbc8;
+     width: 4px;
+}
+QWidget#__area QScrollBar::handle:vertical {
+	background-color: rgb(42, 56, 62);
+    min-height: 20px;
+}
+QWidget#__area QScrollBar::add-line:vertical {
+	height: 0px;
+}
+
+QWidget#__area QScrollBar::sub-line:vertical {
+	height: 0px;
+}
+
+QWidget#__area QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	background: none;
+}
+
+QWidget#__area QScrollBar:horizontal {
+     border: none;
+     background-color:#b5bbc8;
+     height: 4px;
+}
+QWidget#__area QScrollBar::handle:horizontal {
+	background-color: rgb(42, 56, 62);
+    min-width: 20px;
+}
+QWidget#__area QScrollBar::add-line:horizontal {
+	width: 0px;
+}
+
+QWidget#__area QScrollBar::sub-line:horizontal {
+	width: 0px;
+}
+
+QWidget#__area QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+	background: none;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="__area">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="__slot">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>400</width>
+        <height>300</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

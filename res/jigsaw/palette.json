@@ -1,0 +1,17 @@
+{
+    "primary.normal":"#3c8dbc",
+    "primary.active":"#357ca5",
+    "primary.disabled":"#80b5d3",
+    "info.normal":"#00c0ef",
+    "info.active":"#00a7d0",
+    "info.disabled":"#5ad6f4",
+    "success.normal":"#00a65a",
+    "success.active":"#008d4c",
+    "success.disabled":"#5ac594",
+    "warning.normal":"#f39c12",
+    "warning.active":"#db8b0b",
+    "warning.disabled":"#f7bf65",
+    "danger.normal":"#dd4b39",
+    "danger.active":"#d33724",
+    "danger.disabled":"#e98a7e"
+}

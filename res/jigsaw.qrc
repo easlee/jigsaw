@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/jigsaw/button">
+        <file alias="close_pressed">jigsaw/images/close_pressed.png</file>
+        <file alias="close_hover">jigsaw/images/close_hover.png</file>
+        <file alias="close_normal">jigsaw/images/close_normal.png</file>
+        <file alias="downarrow">jigsaw/images/downarrow.png</file>
+        <file alias="maximize_hover">jigsaw/images/maximize_hover.png</file>
+        <file alias="maximize_normal">jigsaw/images/maximize_normal.png</file>
+        <file alias="maximize_pressed">jigsaw/images/maximize_pressed.png</file>
+        <file alias="minimize_hover">jigsaw/images/minimize_hover.png</file>
+        <file alias="minimize_normal">jigsaw/images/minimize_normal.png</file>
+        <file alias="minimize_pressed">jigsaw/images/minimize_pressed.png</file>
+        <file alias="restore_hover">jigsaw/images/restore_hover.png</file>
+        <file alias="restore_normal">jigsaw/images/restore_normal.png</file>
+        <file alias="restore_pressed">jigsaw/images/restore_pressed.png</file>
+        <file alias="plus_normal">jigsaw/images/plus_normal.png</file>
+        <file alias="plus_hover">jigsaw/images/plus_hover.png</file>
+        <file alias="plus_pressed">jigsaw/images/plus_pressed.png</file>
+        <file alias="minus_hover">jigsaw/images/minus_hover.png</file>
+        <file alias="minus_normal">jigsaw/images/minus_normal.png</file>
+        <file alias="minus_pressed">jigsaw/images/minus_pressed.png</file>
+        <file alias="play_hover">jigsaw/images/play_hover.png</file>
+        <file alias="play_normal">jigsaw/images/play_normal.png</file>
+        <file alias="play_pressed">jigsaw/images/play_pressed.png</file>
+        <file alias="grid_hover">jigsaw/images/grid_hover.png</file>
+        <file alias="grid_normal">jigsaw/images/grid_normal.png</file>
+        <file alias="grid_pressed">jigsaw/images/grid_pressed.png</file>
+        <file alias="tick_hover">jigsaw/images/tick_hover.png</file>
+        <file alias="tick_normal">jigsaw/images/tick_normal.png</file>
+        <file alias="tick_pressed">jigsaw/images/tick_pressed.png</file>
+    </qresource>
+    <qresource prefix="/jigsaw/ui">
+        <file alias="combobox">jigsaw/ui/combobox.ui</file>
+        <file>jigsaw/ui/form.ui</file>
+        <file>jigsaw/ui/iconbutton.ui</file>
+        <file>jigsaw/ui/list.ui</file>
+        <file alias="page">jigsaw/ui/page.ui</file>
+        <file>jigsaw/ui/picture.ui</file>
+        <file>jigsaw/ui/radiobutton.ui</file>
+        <file alias="stack">jigsaw/ui/stack.ui</file>
+        <file>jigsaw/ui/table.ui</file>
+        <file alias="text">jigsaw/ui/text.ui</file>
+        <file alias="textbutton">jigsaw/ui/textbutton.ui</file>
+        <file alias="titlebar">jigsaw/ui/titlebar.ui</file>
+        <file alias="vfollowbar">jigsaw/ui/vfollowbar.ui</file>
+        <file alias="drawer">jigsaw/ui/drawer.ui</file>
+        <file alias="scroll">jigsaw/ui/scroll.ui</file>
+        <file alias="iconradio">jigsaw/ui/iconradio.ui</file>
+        <file alias="lineinput">jigsaw/ui/lineinput.ui</file>
+        <file alias="areainput">jigsaw/ui/areainput.ui</file>
+        <file alias="palette">jigsaw/ui/palette.ui</file>
+        <file alias="notify">jigsaw/ui/notify.ui</file>
+    </qresource>
+    <qresource prefix="/jigsaw/font">
+        <file alias="default">jigsaw/fonts/DroidSans.ttf</file>
+    </qresource>
+    <qresource prefix="/jigsaw">
+        <file alias="palette">jigsaw/palette.json</file>
+    </qresource>
+    <qresource prefix="/jigsaw/gif">
+        <file alias="busy-0">jigsaw/images/busy-0.gif</file>
+    </qresource>
+</RCC>

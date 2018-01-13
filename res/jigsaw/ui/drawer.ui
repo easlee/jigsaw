@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>__root</class>
+ <widget class="QWidget" name="__root">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>230</width>
+    <height>644</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>230</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>230</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#__root {
+	background-color: #222d32;
+}
+
+QWidget#__slotFooter
+{
+	min-height: 50px;
+	max-height: 50px;
+}
+
+QWidget#__slotHeader
+{
+	min-height: 64px;
+	max-height: 64px;
+}
+
+QScrollArea[accessibleName=&quot;drawer:scroll&quot;]
+{
+	background-color: transparent;
+}
+
+QWidget[accessibleName=&quot;drawer:frame&quot;]{
+	
+	background-color: rgb(34, 45, 50);
+}
+
+
+QLabel[accessibleName=&quot;drawer:section&quot;]{
+	min-height:38;
+	max-height:38;
+	background-color: rgb(26, 34, 38);
+	color: rgb(55, 100, 88);
+	font: 11pt;
+	padding-left:12px;
+}
+
+
+QRadioButton[accessibleName=&quot;drawer:tab&quot;]{
+	min-height:44;
+	max-height:44;
+	color: rgb(255, 255, 255);
+	font: 11pt;
+	padding-left:14px;
+	icon-size: 24px;
+}
+
+QRadioButton[accessibleName=&quot;drawer:tab&quot;]:checked {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(60, 141, 188, 255), stop:0.02 rgba(60, 141, 188, 255), stop:0.021 rgba(44, 59, 65, 255), stop:1 rgba(44, 59, 65, 255));
+}
+
+QRadioButton[accessibleName=&quot;drawer:tab&quot;]::indicator{
+    width: 0;
+    height: 0;
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="__slotHeader" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>64</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>64</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="accessibleName">
+      <string notr="true">drawer:scroll</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>230</width>
+        <height>530</height>
+       </rect>
+      </property>
+      <property name="accessibleName">
+       <string notr="true">drawer:frame</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="__container" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="__templateSection">
+            <property name="accessibleName">
+             <string notr="true">drawer:section</string>
+            </property>
+            <property name="text">
+             <string>标题模板</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="__templateTab">
+            <property name="accessibleName">
+             <string notr="true">drawer:tab</string>
+            </property>
+            <property name="text">
+             <string>标签模板</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>:/button/close_normal</normaloff>:/button/close_normal</iconset>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>215</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="__slotFooter" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

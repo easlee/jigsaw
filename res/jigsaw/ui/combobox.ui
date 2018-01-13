@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ComboBoxClass</class>
+ <widget class="QWidget" name="ComboBoxClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>235</width>
+    <height>34</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QComboBox" name="__combobox">
+     <property name="focusPolicy">
+      <enum>Qt::WheelFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+	min-height: 32px;
+	max-height: 32px;
+    border: 1px solid #00acd6;
+    border-radius: 3px;
+    padding: 0px 12px 0px 12px;
+    background: #00c0ef;
+	color: #ffffff;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 24px;
+
+    border-left-width: 1px;
+    border-color: #00acd6;
+    border-left-style: solid; 
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+	background: #00c0ef;
+}
+
+QComboBox:on {
+	border-color: #1b6d85;
+}
+
+QComboBox::drop-down:on {
+  	background: #269abc;
+	border-color: #1b6d85;
+}
+
+QComboBox::down-arrow {
+	image: url(:/icon/downarrow);
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #eeeeee;
+	background: #ffffff;
+	border-radius: 3px;
+	padding: 12px 0px 12px 0px;
+	outline: 0;
+}
+
+/*
+* 仅运行时有效
+*/
+QComboBox QListView::item{
+	min-height: 26px;
+	max-height: 26px;
+	color: #777777;
+	border: 0px;
+	padding: 0px 12px 0px 18px;
+}
+
+/*
+* 仅运行时有效
+*/
+QComboBox QListView::item:selected {
+	color: #333333;
+	background: #e1e3e9;
+}
+
+</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

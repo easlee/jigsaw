@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RadioButtonClass</class>
+ <widget class="QWidget" name="RadioButtonClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>204</width>
+    <height>48</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="accessibleDescription">
+      <string notr="true">button:success:large</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton[accessibleDescription=&quot;button:success:large&quot;]
+,QRadioButton[accessibleDescription=&quot;button:success:normal&quot;]
+,QRadioButton[accessibleDescription=&quot;button:success:small&quot;]
+,QRadioButton[accessibleDescription=&quot;button:success:tiny&quot;]
+,QRadioButton[accessibleDescription=&quot;button:warn:large&quot;]
+,QRadioButton[accessibleDescription=&quot;button:warn:normal&quot;]
+,QRadioButton[accessibleDescription=&quot;button:warn:small&quot;]
+,QRadioButton[accessibleDescription=&quot;button:warn:tiny&quot;]
+{
+	color: rgb(255, 255, 255);
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+	padding-left:14px;
+	icon-size: 24px;
+}
+
+QRadioButton[accessibleDescription=&quot;button:success:large&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:success:normal&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:success:small&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:success:tiny&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:warn:large&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:warn:normal&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:warn:small&quot;]::indicator
+,QRadioButton[accessibleDescription=&quot;button:warn:tiny&quot;]::indicator
+{
+	height: 0px;
+	width: 0px;
+}
+
+/********************************************************
+* Success Button
+********************************************************/
+/*hover state*/
+QRadioButton[accessibleDescription=&quot;button:success:large&quot;]:hover
+,QRadioButton[accessibleDescription=&quot;button:success:normal&quot;]:hover
+,QRadioButton[accessibleDescription=&quot;button:success:small&quot;]:hover
+,QRadioButton[accessibleDescription=&quot;button:success:tiny&quot;]:hover
+{
+	border-color: rgb(57, 132, 57);
+	background-color: rgb(0, 141, 76);
+}
+
+/*pressed state*/
+QRadioButton[accessibleDescription=&quot;button:success:large&quot;]:pressed
+,QRadioButton[accessibleDescription=&quot;button:success:normal&quot;]:pressed
+,QRadioButton[accessibleDescription=&quot;button:success:small&quot;]:pressed
+,QRadioButton[accessibleDescription=&quot;button:success:tiny&quot;]:pressed
+{
+	border-color: rgb(57, 115, 146);
+	background-color: rgb(57, 132, 57);
+}
+
+/*checked state*/
+QRadioButton[accessibleDescription=&quot;button:success:large&quot;]:checked
+,QRadioButton[accessibleDescription=&quot;button:success:normal&quot;]:checked
+,QRadioButton[accessibleDescription=&quot;button:success:small&quot;]:checked
+,QRadioButton[accessibleDescription=&quot;button:success:tiny&quot;]:checked
+{
+	border-color: rgb(37, 86, 37);
+	background-color: rgb(68, 157, 68);
+}
+
+/*normal state for large*/
+QRadioButton[accessibleDescription=&quot;button:success:large&quot;]
+{
+	min-height: 46px;
+	max-height: 46px;
+	border-color: rgb(0, 141, 76);
+	background-color: rgb(0, 166, 90);
+	font: 12pt;
+}
+
+/*normal state for large*/
+QRadioButton[accessibleDescription=&quot;button:success:normal&quot;]
+{
+	min-height: 34px;
+	max-height: 34px;
+	border-color: rgb(0, 141, 76);
+	background-color: rgb(0, 166, 90);
+	font: 11pt;
+}
+
+/*normal state for small*/
+QRadioButton[accessibleDescription=&quot;button:success:small&quot;]
+{
+	min-height: 30px;
+	max-height: 30px;
+	border-color: rgb(0, 141, 76);
+	background-color: rgb(0, 166, 90);
+	font: 10pt;
+}
+
+/*normal state for tiny*/
+QRadioButton[accessibleDescription=&quot;button:success:tiny&quot;]
+{
+	min-height: 22px;
+	max-height: 22px;
+	border-color: rgb(0, 141, 76);
+	background-color: rgb(0, 166, 90);
+	font: 9pt;
+}
+
+/********************************************************
+* Warn Button
+********************************************************/
+/*hover state*/
+QRadioButton[accessibleDescription=&quot;button:warn:large&quot;]:hover
+,QRadioButton[accessibleDescription=&quot;button:warn:normal&quot;]:hover
+,QRadioButton[accessibleDescription=&quot;button:warn:small&quot;]:hover
+,QRadioButton[accessibleDescription=&quot;button:warn:tiny&quot;]:hover
+{
+	border-color: rgb(213, 133, 18);
+	background-color: rgb(224, 142, 11);
+}
+
+/*pressed state*/
+QRadioButton[accessibleDescription=&quot;button:warn:large&quot;]:pressed
+,QRadioButton[accessibleDescription=&quot;button:warn:normal&quot;]:pressed
+,QRadioButton[accessibleDescription=&quot;button:warn:small&quot;]:pressed
+,QRadioButton[accessibleDescription=&quot;button:warn:tiny&quot;]:pressed
+{
+	border-color: rgb(57, 115, 146);
+	background-color: rgb(213, 133, 18);
+}
+
+/*checked state*/
+QRadioButton[accessibleDescription=&quot;button:warn:large&quot;]:checked
+,QRadioButton[accessibleDescription=&quot;button:warn:normal&quot;]:checked
+,QRadioButton[accessibleDescription=&quot;button:warn:small&quot;]:checked
+,QRadioButton[accessibleDescription=&quot;button:warn:tiny&quot;]:checked
+{
+	border-color: rgb(37, 86, 37);
+	background-color: rgb(68, 157, 68);
+}
+
+/*normal state for large*/
+QRadioButton[accessibleDescription=&quot;button:warn:large&quot;]
+{
+	min-height: 46px;
+	max-height: 46px;
+	font: 12pt;
+	border-color: rgb(224, 142, 11);
+	background-color: rgb(243, 156, 18);
+}
+
+/*normal state for normal*/
+QRadioButton[accessibleDescription=&quot;button:warn:normal&quot;]
+{
+	min-height: 34px;
+	max-height: 34px;
+	font: 11pt;
+	border-color: rgb(224, 142, 11);
+	background-color: rgb(243, 156, 18);
+}
+
+/*normal state for small*/
+QRadioButton[accessibleDescription=&quot;button:warn:small&quot;]
+{
+	min-height: 30px;
+	max-height: 30px;
+	font: 10pt;
+	border-color: rgb(224, 142, 11);
+	background-color: rgb(243, 156, 18);
+}
+
+/*normal state for tiny*/
+QRadioButton[accessibleDescription=&quot;button:warn:tiny&quot;]
+{
+	min-height: 22px;
+	max-height: 22px;
+	font: 9pt;
+	border-color: rgb(224, 142, 11);
+	background-color: rgb(243, 156, 18);
+}</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

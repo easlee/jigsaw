@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>__root</class>
+ <widget class="QWidget" name="__root">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>223</width>
+    <height>34</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#__root {
+	background: transparent;
+}
+
+QWidget[textbuttonsize=&quot;normal&quot;]#__root {
+	min-height: 34px;
+	max-height: 34px;
+}
+
+QWidget[textbuttonsize=&quot;large&quot;]#__root {
+	min-height: 46px;
+	max-height: 46px;
+}
+
+QWidget[textbuttonsize=&quot;small&quot;]#__root {
+	min-height: 30px;
+	max-height: 30px;
+}
+
+QWidget[textbuttonsize=&quot;tiny&quot;]#__root {
+	min-height: 22px;
+	max-height: 22px;
+}
+
+QPushButton#__button {
+	color: #ffffff;
+	border-radius: 3px;
+	border: 1px solid grba(0,0,0,50);
+}
+
+QPushButton[textbuttonsize=&quot;tiny&quot;]#__button {
+	font: 8pt;
+}
+
+QPushButton[textbuttonsize=&quot;small&quot;]#__button {
+	font: 9pt;
+}
+
+QPushButton[textbuttonsize=&quot;normal&quot;]#__button {
+	font: bold 10pt;
+}
+
+QPushButton[textbuttonsize=&quot;large&quot;]#__button {
+	font: bold 12pt;
+}
+
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QPushButton" name="__button">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
